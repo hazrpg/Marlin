@@ -27,10 +27,10 @@
 #include "macros.h"
 #include "boards.h"
 #include "Version.h"
-#include "Configuration.h"
+#include "example_configurations/Anet/A8_RAMPS/Configuration.h"
 #include "Conditionals_LCD.h"
 #include "tmc_macros.h"
-#include "Configuration_adv.h"
+#include "example_configurations/Anet/A8_RAMPS/Configuration_adv.h"
 #include "pins.h"
 #ifndef USBCON
   #define HardwareSerial_h // trick to disable the standard HWserial
