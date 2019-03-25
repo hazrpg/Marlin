@@ -2047,14 +2047,14 @@
  * LED Type. Enable only one of the following two options.
  *
  */
-//#define RGB_LED
+#define RGB_LED
 //#define RGBW_LED
 
 #if ENABLED(RGB_LED) || ENABLED(RGBW_LED)
-  #define RGB_LED_R_PIN 34
-  #define RGB_LED_G_PIN 43
-  #define RGB_LED_B_PIN 35
-  #define RGB_LED_W_PIN -1
+  // #define RGB_LED_R_PIN 3
+  // #define RGB_LED_G_PIN 4
+  // #define RGB_LED_B_PIN 9
+  // #define RGB_LED_W_PIN -1
 #endif
 
 // Support for Adafruit Neopixel LED driver
